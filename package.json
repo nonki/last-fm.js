@@ -1,5 +1,5 @@
 {
-  "name": "@vaequitas/last-fm",
+  "name": "last-fm.js",
   "version": "0.0.0",
   "description": "A JS module for intarcting with the Last.fm API",
   "main": "src/index.js",
