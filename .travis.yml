@@ -1,10 +1,13 @@
 language: node_js
 node_js:
-  - 10
+- 10
 cache:
   directories:
-    - node_modules
+  - node_modules
 install: npm install
 scripts:
-  - bash ./deploy/deploy.sh
+- bash ./deploy/deploy.sh
 sudo: false
+deploy:
+  api_key:
+    secure: jU5jU6CzIJ0UFnMnnyS1hj2afgHii2Fck592c9q1Y8w3EjRQOaY+D9Tx33Jv8cYPDnZKjjvhseIsmsoRzKlNwMj6emGx6aJ/m+GSV8/b8lVfvpcZROI1AFSWFbV1ZiV2OfwvK8EmgxY9waSS5GKvmRw1EzOIJAybV45RtdT9DjEmjFVn/dJRiPLEMn6V4/Ge2GmCs/PhgiTDMCe7YaXnQXwY8nfNVEKBxW8DUGzdK8DzIdlAi12Ab1jmQ00aNF2DH9MvBFcRXbFTSYH0uc1At+nJRQVEFZ0dgOT1irDxQ/N6eEvizG9PyjRbiMBmyPIfjjoTqFmuIdeQ3QpIcj+oU02psUiD2QEhZ8yVUaBNhqMtui7nnyNyDaM2oLaB84MZnBGsqhJbuv+UsbIUAQXG/CJUBo3fr9991QxrZC/VdiyyVhSSOQDTXAMJ+4KvUTG981BnolYbsV2ApWQsB/w7sOcfjgrTJ482B+iiT1RUAfQfwV/E0GIIyKb5QDWg0fsxfqVX8b8H9kXx41ZVm2HtyxvG/cR8zWl6Gj8EHEoAHONAZIUe66FkzKXXxx6m5H0HMZKySEgS8+kStAYDJwhibNzH9MZZ/WSYWtVEA1IMbJZBhEuwzFf4RO+UpDAJ43TFrpYX8RdRHYbO/bAWc/1tnl9Gqm64fJyMNvLSnzmC6fA=
