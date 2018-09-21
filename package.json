@@ -1,6 +1,6 @@
 {
   "name": "last-fm.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A JS module for intarcting with the Last.fm API",
   "main": "src/index.js",
   "scripts": {
